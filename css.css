@@ -150,11 +150,26 @@
 .social {
   display: flex;
   margin: auto;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footer {
+  background-color: #212529;
+  color: white;
+  align-items: center;
+  height: 10vh;
+  padding-top: 10px;
+  font-size: 2em;
+  text-align: center;
+}
+.LOGO div a {
+  margin-right: 200px;
 }
 .LOGO {
-  justify-content: space-between;
-  align-items: center;
   display: flex;
+  margin-left: 10%;
+  margin-bottom: 20px;
 }
 .card h1 {
   margin: 10px;
@@ -246,10 +261,27 @@ label {
     text-align: center;
   }
   .LOGO {
-    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .LOGO div {
+    margin-top: 30px;
+    margin-left: 40%;
+    align-items: center;
+    justify-content: space-around;
   }
   .header p {
     font-size: 1.5em;
+  }
+
+  .footer {
+    margin-top: 5px;
+    height: 5vh;
+    text-align: center;
+    font-size: 1em;
   }
   .card {
     width: 70%;
