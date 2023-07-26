@@ -60,7 +60,7 @@
   width: 40%;
   margin-left: 10%;
 }
-#containerprofile {
+.containerprofile {
   display: flex;
   height: auto;
 }
@@ -91,6 +91,9 @@
   display: flex;
 }
 .container {
+  display: flex;
+}
+#about {
   display: flex;
 }
 .head {
@@ -143,7 +146,7 @@
   .container {
     display: inline;
   }
-  #containerprofile {
+  .containerprofile {
     display: inline;
   }
   .data {
