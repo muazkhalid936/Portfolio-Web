@@ -46,6 +46,12 @@
   font-size: 1em;
   color: rgb(255, 255, 255);
 }
+.menu a.active {
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+}
 .btn1 {
   margin: 20px;
   font-size: 1.2em;
@@ -69,8 +75,29 @@
   margin: 20px;
   font-size: 1.5em;
 }
+.asd {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.detail {
+  display: flex;
+}
 .data p {
   margin-top: 30px;
+}
+.location,
+.numb {
+  margin: 20px;
+  align-items: center;
+}
+.location img,
+.numb img {
+  width: 50px;
+  height: 50px;
+}
+.location p {
+  align-items: center;
 }
 .header {
   width: 100%;
@@ -130,6 +157,39 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+.container-contact {
+  display: flex;
+  margin: 30px;
+}
+.in {
+  margin-left: 20px;
+}
+label {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.form-control {
+  display: block;
+  width: 90%;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.comment {
+  height: 40vh;
+}
 .cardbutton {
   background-color: #0d6efd;
   color: white;
@@ -141,20 +201,37 @@
   border-radius: 5px;
   margin-bottom: 20px;
 }
-
-@media (max-width: 640px) {
+.submit {
+  margin-top: 100px;
+}
+#contact {
+  margin-bottom: 30px;
+}
+@media (max-width: 680px) {
   .container {
     display: inline;
   }
   .containerprofile {
     display: inline;
   }
+  .form-control{
+    margin-bottom: 20px;
+  }
   .data {
     width: 90%;
   }
+
   .immg {
     width: 80%;
     margin: auto;
+  }
+  .header h1 {
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+  }
+  .header p {
+    font-size: 1.5em;
   }
   .card {
     width: 70%;
