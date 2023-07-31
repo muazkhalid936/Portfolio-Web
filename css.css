@@ -236,6 +236,12 @@ label {
 #contact {
   margin-bottom: 30px;
 }
+
+/* @media (max-width: 320px) {
+  .card {
+    height: 100vh;
+  }
+} */
 @media (max-width: 680px) {
   .container {
     display: inline;
@@ -286,7 +292,35 @@ label {
   }
   .card {
     width: 70%;
-    height: 70vh;
+    height: 60vh;
     margin-top: 10px;
   }
+}
+
+@media (max-width: 680px) and (max-width: 26em) {
+  .card {
+    height: 80vh;
+  }
+}
+@media (min-width: 681px) {
+  .card {
+    height: 55vh;
+    width: 30%;
+  }
+  .data {
+    width: 90%;
+  }
+
+  .immg {
+    width: 80%;
+    margin: auto;
+  }
+
+  .containerprofile {
+    display: inline;
+  }
+  /* .LOGO {
+    width: 90%;
+  }
+  */
 }
