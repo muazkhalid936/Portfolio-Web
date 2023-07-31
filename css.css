@@ -299,14 +299,16 @@ label {
 
 @media (max-width: 680px) and (max-width: 26em) {
   .card {
-    height: 80vh;
+    height: 70vh;
   }
 }
-@media (min-width: 681px) {
-  .card {
+
+
+/* @media (min-width: 681px) {
+  /* .card {
     height: 55vh;
     width: 30%;
-  }
+  } 
   .data {
     width: 90%;
   }
@@ -322,5 +324,7 @@ label {
   /* .LOGO {
     width: 90%;
   }
-  */
+  
 }
+*/
+ 
