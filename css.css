@@ -299,7 +299,7 @@ label {
   }
   .cards {
     width: 70%;
-    height: 60vh;
+    height: 70vh;
     margin-top: 10px;
   }
 }
@@ -308,6 +308,7 @@ label {
   .cards {
     height: 70vh;
   }
+  
 }
 
 

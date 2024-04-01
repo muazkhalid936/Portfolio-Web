@@ -10,36 +10,72 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-      <link rel="stylesheet" href="css.css">
- 
+    <link rel="stylesheet" href="css.css">
+
 </head>
 
 <body>
 
 
 
-    <div class="navbar nav1 bg-base-100">
+    <div class="navbar  nav1 md:hidden lg:hidden bg-base-100">
         <div class="flex-1">
-          <a class="btn btn-ghost text-white text-xl">Muaz Khalid</a>
+            <a class="btn btn-ghost text-white text-xl">Muaz Khalid</a>
         </div>
-        <div class="flex-none">
-          <button class="btn btn-square btn-ghost">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block text-white w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
-          </button>
+
+
+        <div class="text-white">
+
+            <div class="drawer drawer-end">
+                <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                <div class="drawer-content">
+                    <!-- Page content here -->
+                    <label for="my-drawer-4" class="drawer-button">
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            class="inline-block w-5 h-5 stroke-current">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z">
+                            </path>
+                        </svg>
+
+
+
+                    </label>
+                </div>
+                <div class="drawer-side">
+                    <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+                    <ul class="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+                        <!-- Sidebar content here -->
+                        <li> <a href="index.html">Home</a></li>
+                        <li> <a href="#profiles">Portfolio</a>
+                        </li>
+                        <li> <a href="#abouts">About Me</a>
+                        </li>
+                        <li> <a href="#contact">Contact Me</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
+
+
+
+    </div>
 
 
 
 
 
-    <div class="bars hidden lg:flex">
+    <div class="bars hidden  md:flex lg:flex">
         <h1>Muaz Khalid</h1>
-        <div class="menus hidden lg:flex">
+        <div class="menus">
 
             <a href="index.html">Home</a>
-            <a href="#profile">Portfolio</a>
-            <a href="#about">About Me</a>
+            <a href="#profiles">Portfolio</a>
+            <a href="#abouts">About Me</a>
             <a href="#contact">Contact Me</a>
         </div>
     </div>
@@ -62,7 +98,7 @@
             <div class="containers">
 
 
-                <div class="cards">
+                <div class="cards ">
                     <h1>Naughty Courses</h1>
 
                     <p>
@@ -78,9 +114,9 @@
                     <p>In this web you can order the course you want and the category also like silver, gold and
                         platinum.User can comment by sending us Email and content</p>
                     <br>
-                    <a class="cardbuttons" href="https://muazkhalid786.github.io/Curses.github.io/">Show Project</a>
+                    <a class="cardbuttons" target="_blank" href="https://muazkhalid936.github.io/Curses.github.io/">Show Project</a>
                 </div>
-                <div class="cards cardss">
+                <div class="cards  cardss">
                     <h1>E-Commerce</h1>
 
                     <p>
@@ -94,16 +130,14 @@
                     <p>This program is made for the 2nd Semester project for tha Object Oriented Programming(OOP).
                         In this Program, a user can sign in or login with email and password.
                         Then user can see the products in the Program and add into its cart.
-                    </p>
-
-                    <p>After adding into cart the
+                    After adding into cart the
                         user can see the card detials like products and total price.If the signed in user is admin it
                         can add products in the market. </p>
-                    <br>
-                    <a class="cardbuttons" href="https://github.com/Muazkhalid786/E-Commerce-OOP-Project">Show
+            
+                    <a class="cardbuttons" target="_blank" href="https://github.com/Muazkhalid936/E-Commerce-OOP-Project">Show
                         Project</a>
                 </div>
-                <div class="cards">
+                <div class="cards ">
                     <h1>Login Registeration Form</h1>
 
                     <p>
@@ -119,7 +153,8 @@
                         Mainly in this My focus was a little bit designing
                     </p>
                     <br>
-                    <a class="cardbuttons" href="https://muazkhalid786.github.io/Login-Registeration-Form-Frontend/">Show
+                    <a class="cardbuttons"
+                      target="_blank"  href="https://muazkhalid936.github.io/Login-Registeration-Form-Frontend/">Show
                         Project</a>
                 </div>
             </div>
@@ -231,17 +266,17 @@
                 </div>
                 <div>
 
-                    <a href="https://www.instagram.com/majo.hehe786/"> <img class="logos" src="img/instagram.svg"
+                    <a href="https://www.instagram.com/majo.hehe/"> <img class="logos" src="img/instagram.svg"
                             alt=""></a>
                 </div>
                 <div>
 
-                    <a href="https://www.linkedin.com/in/muaz-khalid-ba1949264/"> <img class="logos"
+                    <a href="https://www.linkedin.com/in/muaz-khalid-a8b8672b7/"> <img class="logos"
                             src="img/linkedin.svg" alt=""></a>
                 </div>
                 <div>
 
-                    <a href="https://github.com/Muazkhalid786"> <img class="logos" src="img/github-logo.svg" alt=""></a>
+                    <a href="https://github.com/muazkhalid936"> <img class="logos" src="img/github-logo.svg" alt=""></a>
                 </div>
 
             </div>
