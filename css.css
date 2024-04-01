@@ -157,6 +157,10 @@
   align-items: center;
   width: 100%;
 }
+.nav1{
+  background-color: rgb(12, 12, 12);
+
+}
 .footers {
   background-color: #212529;
   color: white;
