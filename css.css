@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -147,8 +149,8 @@
   margin: auto;
   align-items: center;
 }
-.cardss{
-  height: 500px;;
+.cardss {
+  height: 500px;
 }
 .socials {
   display: flex;
@@ -157,9 +159,8 @@
   align-items: center;
   width: 100%;
 }
-.nav1{
+.nav1 {
   background-color: rgb(12, 12, 12);
-
 }
 .footers {
   background-color: #212529;
@@ -253,7 +254,7 @@ label {
   .containers {
     display: inline;
   }
-  .containerprofiles{
+  .containerprofiles {
     display: inline;
   }
   .form-controls {
@@ -308,9 +309,7 @@ label {
   .cards {
     height: 70vh;
   }
-  
 }
-
 
 /* @media (min-width: 681px) {
   /* .card {
@@ -335,4 +334,3 @@ label {
   
 }
 */
- 
