@@ -300,37 +300,9 @@ label {
   }
   .cards {
     width: 70%;
-    height: 70vh;
+    height: 400;
     margin-top: 10px;
   }
 }
 
-@media (max-width: 680px) and (max-width: 26em) {
-  .cards {
-    height: 70vh;
-  }
-}
 
-/* @media (min-width: 681px) {
-  /* .card {
-    height: 55vh;
-    width: 30%;
-  } 
-  .data {
-    width: 90%;
-  }
-
-  .immg {
-    width: 80%;
-    margin: auto;
-  }
-
-  .containerprofile {
-    display: inline;
-  }
-  /* .LOGO {
-    width: 90%;
-  }
-  
-}
-*/
